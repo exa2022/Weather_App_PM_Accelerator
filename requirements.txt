@@ -1,0 +1,7 @@
+Packages/Libraries to Install:
+
+Node
+Express
+Cors
+sqlite3
+nodemon
