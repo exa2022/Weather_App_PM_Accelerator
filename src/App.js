@@ -147,7 +147,7 @@ function App()
   };
 
   // Submit to backend
-  const res = await fetch("http://localhost:5000/api/weather", {
+  const res = await fetch("https://weather-app-pm-accelerator.onrender.com/api/weather", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -246,7 +246,7 @@ function App()
       humidity: humidity, // This is the new humidity level
     }
 
-    const res = await fetch("http://localhost:5000/api/weather", {
+    const res = await fetch("https://weather-app-pm-accelerator.onrender.com/api/weather", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -303,7 +303,7 @@ function App()
       countryCode: countryCode,
     };
 
-    const res = await fetch("http://localhost:5000/api/weather", {
+    const res = await fetch("https://weather-app-pm-accelerator.onrender.com/api/weather", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
