@@ -30,5 +30,5 @@ A simple yet powerful weather application built with React & CSS, Node.js & Expr
 > **Frontend**: cd weather_app --> run npm start  
 > **Backend**: cd weather_app/backend --> run npm run dev  
 > **Database**: cd weather_app/backend --> run sqlite3 weather.db --> run SQL commands (SELECT, ADD, DELETE, etc)  
-> **Access Database**: Go to this URL: http://localhost:5000/api/weather
+> **Application Link**: Go to this URL: https://rococo-meerkat-8b2495.netlify.app/
 
